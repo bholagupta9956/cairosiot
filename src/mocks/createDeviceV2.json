@@ -1,0 +1,80 @@
+{
+  "deviceId": "01FXH6MM11HEBATQH1J66MMK2W",
+  "projectId": "01FWWNWT6929Q8FQ6Q0T0E29DN",
+  "deviceModes": [
+      {
+          "modeId": "001",
+          "parameters": [
+              {
+                  "key": "100",
+                  "name": "Timestamp"
+              },
+              {
+                  "key": "101",
+                  "name": "Position"
+              },
+              {
+                  "key": "102",
+                  "name": "Average Peak Current",
+                  "unit": "mA"
+              },
+              {
+                  "key": "103",
+                  "name": "Average Peak Voltage",
+                  "unit": "V"
+              },
+              {
+                  "key": "104",
+                  "name": "Execution Time",
+                  "unit": "MS"
+              },
+              {
+                  "key": "105",
+                  "name": "Current",
+                  "unit": "MS",
+                  "type": "line_graph"
+              }
+          ]
+      },
+      {
+          "modeId": "002",
+          "parameters": [
+              {
+                  "key": "100",
+                  "name": "Timestamp"
+              },
+              {
+                  "key": "101",
+                  "name": "Position"
+              },
+              {
+                  "key": "102",
+                  "name": "Average Peak Current",
+                  "unit": "mA"
+              },
+              {
+                  "key": "103",
+                  "name": "Average Peak Voltage",
+                  "unit": "V"
+              },
+              {
+                  "key": "104",
+                  "name": "Execution Time",
+                  "unit": "MS"
+              },
+              {
+                  "key": "105",
+                  "name": "Current",
+                  "unit": "MS",
+                  "type": "line_graph"
+              }
+          ]
+      }
+  ],
+  "deviceType": "point_machine",
+  "name": "Point machine - 004",
+  "model": "JAR-PM-V1",
+  "installation_date": "27 Feb 2022",
+  "lat": "12.223",
+  "lng": "77.323"
+}

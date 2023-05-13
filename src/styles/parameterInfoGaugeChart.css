@@ -1,0 +1,32 @@
+.hgLow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.high{
+    width: 60px;
+    height:  60px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 23px;
+}
+
+.low {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 23px;
+}
+
+.hgLow h4{
+    color: white ;
+}

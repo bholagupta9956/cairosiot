@@ -1,0 +1,125 @@
+.configTable{
+    width: 100%;
+    margin-top: 23px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.configTabHead{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center ;
+    align-items: center ; 
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.confDown{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: blue;
+    padding: 8px 16px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.configTabHead h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.configDetails{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    height: 530px;
+    overflow-y: scroll;
+}
+
+.conDev{
+    width: 100%;
+    border: 2px solid grey;
+}
+
+
+
+.deviceDetails{
+    display: flex;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+.deviceDetails:last-child{
+    border-bottom: none;
+}
+
+.deviceDetails>h4{
+   width: 25%;
+   min-width: 200px;
+   text-align: center;
+   margin: auto;
+   font-size: 20px;
+   min-height: 60px;
+   line-height: 60px;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+
+.conmode{
+    width: 75%;
+    border-collapse: collapse;
+}
+.modeDetails{
+    display: flex;
+   border-left: 2px solid grey;
+    width: 100%;
+    border-collapse: collapse;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+.modeDetails:last-child{
+    border-bottom: none;
+}
+
+.modeDetails>h4{
+    width: 40%;
+    min-width: 300px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    min-height: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+.modeDetails h4:last-child{
+    border-bottom: none;
+}
+
+.conParams{
+  border-left: 2px solid grey;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+
+.conParams h4{
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+
+.conParams h4:last-child{
+    border-bottom: none;
+}

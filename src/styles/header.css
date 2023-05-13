@@ -1,0 +1,6 @@
+/* here we are writing all the styling part of the header */
+
+.headerTitle{
+    color: var(--blue) !important;
+    padding-left: 25px;
+}

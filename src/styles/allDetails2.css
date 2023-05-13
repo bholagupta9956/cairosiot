@@ -1,0 +1,117 @@
+.tabllle{
+    width: 96% ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin: 25px auto;
+    border-radius: 4px;
+ }
+
+ .tableHead{
+    width: 100%;
+    height : 60px ;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    position: relative;
+    border-radius: 3px;
+ }
+
+ .tableHead h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+ }
+
+ .backArrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+ }
+
+ .projectList{
+    width: 100%;
+     min-height: 120px;
+     background: white;
+     margin-top: 20px;
+ }
+
+ .projListItem{
+    width: 100%;
+    padding: 12px 25px;
+    border-bottom: 1px solid grey;
+    display: flex;
+ }
+
+ .projListItem h3{
+    width: 260px;
+ }
+
+ .rightArrow{
+    width: 26px;
+    cursor: pointer;
+    transition: 0.2s;
+ }
+
+ .rightArrow:hover{
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+ }
+
+.tabllle td.MuiTableCell-root.MuiTableCell-body {
+    width: 40px !important;
+}
+
+.tabllle td.MuiTableCell-root.MuiTableCell-body button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall {
+    border: 2px solid #a8b3a8;
+}
+
+.MuiTableCell-sizeSmall:last-child {
+    min-width: 150px;
+}
+
+
+th.MuiTableCell-root.MuiTableCell-head {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(57, 57, 207);
+}
+
+.device{
+  padding-left: 8% !important;
+  border-bottom: 2px solid green !important;
+  width: 200px !important;
+}
+
+.deviceArrow{
+    padding-left: 8% !important;
+}
+
+.deviceDta{
+   transform: translateX(-5%);
+}
+
+.mode{
+    padding-left: 10% !important;
+    border-bottom: 2px solid green !important;
+    width: 200px !important;
+  }
+  
+  .modeArrow{
+      padding-left: 8% !important;
+  }
+  
+  .modeDta{
+     transform: translateX(-5%);
+  }
+
+.params{
+    padding-left: 10% !important;
+    width: 200px !important;
+    border-bottom: 2px solid green;
+  }
+
+  .paramsDta{
+     transform: translateX(-9%) !important;
+  }

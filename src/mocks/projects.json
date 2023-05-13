@@ -1,0 +1,30 @@
+[
+  {
+      "installation_date": "12 Feb 2021",
+      "projectId": "01FWWNWT6929Q8FQ6Q0T0E29DN",
+      "entityType": "ProjectInfo",
+      "device": [
+          "01FWWNYR6R4WQH88Q9YSBTH0AY",
+          "01FWXG83WYDAPTW4N574K338XZ"
+      ],
+      "lng": "77.323",
+      "SK": "PROJECT#01FWWNWT6929Q8FQ6Q0T0E29DN",
+      "PK": "PROJECT#01FWWNWT6929Q8FQ6Q0T0E29DN",
+      "lat": "12.223",
+      "name": "Project Name 1"
+  },
+  {
+      "installation_date": "12 Feb 2021",
+      "projectId": "01FWXGSBY9KKRQFPG356KYDPGM",
+      "entityType": "ProjectInfo",
+      "device": [
+          "01FWXHD287KVGRZB1GM5DZR82Z",
+          "01FWXHG5XS14CK89X16HW7FF5N"
+      ],
+      "lng": "77.323",
+      "SK": "PROJECT#01FWXGSBY9KKRQFPG356KYDPGM",
+      "PK": "PROJECT#01FWXGSBY9KKRQFPG356KYDPGM",
+      "lat": "12.223",
+      "name": "Project Name 2"
+  }
+]

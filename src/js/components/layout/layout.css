@@ -1,0 +1,14 @@
+
+
+.dashboardCont{
+    /* width: 100%; */
+    /* border: 2px solid green; */
+}
+
+@media only screen and (max-width : 850px ) {
+   .dashboardCont{
+    margin-right: 0px !important;
+    overflow: hidden !important;
+    padding-right: 0px !important;
+   }
+}   

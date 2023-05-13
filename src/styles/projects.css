@@ -1,0 +1,184 @@
+/* here we are writing the styles of the project.jsx  file which is inside the container directory  */
+
+.projCont {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.projLeft {
+  width: 25%;
+  min-width: 300px;
+  margin-right: 1% !important;
+}
+
+.projRight {
+  width: 74%;
+}
+
+
+.projEff {
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projAlerts {
+  margin: 20px auto;
+  background: white;
+  min-height: 400px;
+  border-radius: 8px;
+  max-height: 450px;
+  overflow-y: scroll;
+  border-radius: 7px;
+  border: var(--boxBorder);
+  background: var(--bgColor);
+}
+
+
+.projHeadCrd {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.prHeadCrdBox {
+  width: 24%;
+  border-radius: 7px;
+  background: var(--bgColor);
+}
+
+.projRightRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProjRightcol1 {
+  width: 60%;
+  height: 70vh;
+  
+}
+
+.ProjRightcol2 {
+  width: 39%;
+  height: 70vh;
+  border-radius: 7px;
+  border: var(--boxBorder);
+  background: var(--bgColor);
+}
+
+.ragReport {
+  height: 100%;
+  background: var(--bgColor);
+}
+
+.dashRight {
+  border-radius: 7px;
+  border: var(--boxBorder);
+  background: var(--bgColor);
+  overflow-y: scroll;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .projRightRow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ProjRightcol1 {
+    width: 98%;
+    margin-bottom: 20px;
+    height: 400px;
+  }
+
+  .ProjRightcol2 {
+    width: 98%;
+    height: 400px;
+  }
+
+  .projAlerts {
+    height: 100%;
+  }
+
+  .prHeadCrdBox {
+
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .prHeadCrdBox {
+    width: 49%;
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .projCont {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .projLeft {
+    margin-bottom: 16px;
+    width: 90%;
+  }
+
+  .projAlerts {
+    min-height: 200px;
+  }
+  .projRight {
+    width: 90%;
+  }
+
+  .px-4 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .p-4.flex-none.flex.flex-col.justify-center.text-center {
+    padding: 2px 3px;
+    font-size: 13px;
+  }
+
+  .projCont {
+    flex-direction: column;
+    align-items: center;
+    width: 92%;
+  }
+
+  .flex-0.border-r.flex.flex-col.justify-center {
+    font-size: 12px;
+    width: 80px;
+  }
+
+  /* .stackedListItm .flex-0.border-r.flex.flex-col.justify-center .font-cardHeading.font-bold {
+  width: 100px !important;
+} */
+  .stackedListItm {
+    background-color: rgb(217 221 248) !important;
+  }
+
+  .stackedListItm .equipLeft {
+    width: 80px !important;
+
+  }
+
+  .stackedListItm .equipLeftName {
+    word-wrap: break-word !important;
+  }
+
+  .projHeadCrd .prHeadCrdBox {
+    width: 98%;
+  }
+}

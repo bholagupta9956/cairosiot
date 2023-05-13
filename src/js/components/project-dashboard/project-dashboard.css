@@ -1,0 +1,112 @@
+/* here we are going to maintain all the styling of the project-dashboard directory */
+
+.alertCont {
+  background-color: var(--bgColor) !important;
+  height: 100%;
+}
+
+.alertMinCont{
+    background-color: transparent ;
+}
+
+.alertMsg{
+  background-color: #a99898;
+  font-weight: 600;
+}
+
+.devListContCol1{
+  background-color: var(--bgColor) !important;
+  border: var(--boxBorder);
+  border-radius: 7px;
+  height: 98vh;
+}
+
+.alertDta{
+  height: 90%;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.devListContCol2{
+  background-color: var(--bgColor) !important;
+  border: var(--boxBorder);
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .devListCont {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .devListContCol1 {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .devListContCol2 {
+    width: 100%;
+    margin: auto;
+  }
+  
+}
+
+.equiContt{
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+@media only screen and (max-width: 900px) {
+  .stackListCont .flex-0.border-r.flex.flex-col.justify-center {
+    width: 100px;
+    min-width: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .devListContCol2 .p-4.flex-none.flex.flex-col.justify-center.text-center {
+    min-width: 100px !important;
+    width: 100px !important;
+    font-size: 14px;
+  }
+
+  .devListContCol2 .flex-0.border-r.flex.flex-col.justify-center .p-4 {
+    font-size: 14px;
+    width: 120px;
+    padding: 9px 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .devListContCol2 .w-full.h-full.p-4.bg-light.rounded-lg.overflow-y-scroll {
+    overflow-x: scroll !important;
+    width: 550px !important;
+  }
+
+  tr td.relative.w-28.p-2 {
+    font-size: 13px !important;
+  }
+
+  /* .col-span-6.devListContCol2 {
+        width: 537px !important;
+        overflow: scroll !important;
+    } */
+
+  .relative.bg-light.shadow.rounded {
+    width: 490px !important;
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .relative.bg-light.shadow.rounded {
+    width: 355px !important;
+    overflow-x: scroll;
+  }
+
+  .equiBtn {
+    width: 307px;
+    overflow-x: scroll;
+  }
+}

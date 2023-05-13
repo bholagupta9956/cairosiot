@@ -1,0 +1,11 @@
+.equipBox{
+    border-top: var(--boxBorder);
+}
+
+.equipLef{
+    border-right: var(--boxBorder);
+}
+
+.tableBord{
+ border-bottom: 2px soldi green;
+}

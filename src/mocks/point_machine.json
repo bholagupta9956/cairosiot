@@ -1,0 +1,183 @@
+[
+    {
+        "installation_date": "13-02-2022",
+        "model": "JARS-PM-1",
+        "projectId": "01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "entityType": "DeviceInfo",
+        "deviceId": "01FVYWAS3WGPJY0YTJWBD4DZPS",
+        "deviceType": "point_machine",
+        "lng": "77.214",
+        "SK": "DEVICE#01FVYWAS3WGPJY0YTJWBD4DZPS",
+        "PK": "PD#01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "lat": "12.214",
+        "name": "Point Machine - 001"
+    },
+    {
+        "projectId": "01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "entityType": "DeviceLastData",
+        "deviceId": "01FVYWAS3WGPJY0YTJWBD4DZPS",
+        "parameters": [
+            {
+                "value": "2022-02-15T19:45:00Z",
+                "key": "100"
+            },
+            {
+                "value": "Forward",
+                "key": "101"
+            },
+            {
+                "value": "35",
+                "key": "102"
+            },
+            {
+                "value": "200",
+                "key": "103"
+            },
+            {
+                "value": "500",
+                "key": "104"
+            },
+            {
+                "value": [
+                    "100",
+                    "120",
+                    "150",
+                    "124",
+                    "136",
+                    "146",
+                    "180",
+                    "190",
+                    "100"
+                ],
+                "key": "105"
+            }
+        ],
+        "timestamp": "2022-02-15T19:45:00Z",
+        "SK": "DEVICE#01FVYWAS3WGPJY0YTJWBD4DZPS#LAST_DATA#MODE001",
+        "PK": "PD#01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "modeId": "001"
+    },
+    {
+        "projectId": "01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "entityType": "DeviceLastData",
+        "deviceId": "01FVYWAS3WGPJY0YTJWBD4DZPS",
+        "parameters": [
+            {
+                "value": "2022-02-15T19:45:00Z",
+                "key": "100"
+            },
+            {
+                "value": "Backward",
+                "key": "101"
+            },
+            {
+                "value": "35",
+                "key": "102"
+            },
+            {
+                "value": "200",
+                "key": "103"
+            },
+            {
+                "value": "500",
+                "key": "104"
+            },
+            {
+                "value": [
+                    "100",
+                    "120",
+                    "150",
+                    "124",
+                    "136",
+                    "146",
+                    "180",
+                    "190",
+                    "100"
+                ],
+                "key": "105"
+            }
+        ],
+        "timestamp": "2022-02-15T19:30:00Z",
+        "SK": "DEVICE#01FVYWAS3WGPJY0YTJWBD4DZPS#LAST_DATA#MODE002",
+        "PK": "PD#01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "modeId": "002"
+    },
+    {
+        "projectId": "01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "entityType": "DeviceParameters",
+        "deviceId": "01FVYWAS3WGPJY0YTJWBD4DZPS",
+        "parameters": [
+            {
+                "name": "Timestamp",
+                "key": "100"
+            },
+            {
+                "name": "Position",
+                "key": "101"
+            },
+            {
+                "name": "Average Peak Current",
+                "key": "102",
+                "unit": "mA"
+            },
+            {
+                "name": "Average Peak Voltage",
+                "key": "103",
+                "unit": "V"
+            },
+            {
+                "name": "Execution Time",
+                "key": "104",
+                "unit": "MS"
+            },
+            {
+                "name": "Current",
+                "unit": "MS",
+                "type": "line_graph",
+                "key": "105"
+            }
+        ],
+        "SK": "DEVICE#01FVYWAS3WGPJY0YTJWBD4DZPS#PARAMETERS#MODE001",
+        "PK": "PD#01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "modeId": "001"
+    },
+    {
+        "projectId": "01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "entityType": "DeviceParameters",
+        "deviceId": "01FVYWAS3WGPJY0YTJWBD4DZPS",
+        "parameters": [
+            {
+                "name": "Timestamp",
+                "key": "100"
+            },
+            {
+                "name": "Position",
+                "key": "101"
+            },
+            {
+                "name": "Average Peak Current",
+                "key": "102",
+                "unit": "mA"
+            },
+            {
+                "name": "Average Peak Voltage",
+                "key": "103",
+                "unit": "V"
+            },
+            {
+                "name": "Execution Time",
+                "key": "104",
+                "unit": "MS"
+            },
+            {
+                "name": "Current",
+                "unit": "MS",
+                "type": "line_graph",
+                "key": "105"
+            }
+        ],
+        "SK": "DEVICE#01FVYWAS3WGPJY0YTJWBD4DZPS#PARAMETERS#MODE002",
+        "PK": "PD#01FV3ZA74379PMW6DEJHGGTZ7Y",
+        "modeId": "002"
+    }
+]

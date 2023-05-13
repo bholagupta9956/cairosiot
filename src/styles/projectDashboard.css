@@ -1,0 +1,131 @@
+/* here we are going to style the project Dashboard which is inside the container directory  */
+
+.projDash{
+    width: 100% ;
+   padding: 18px 0px ;
+}
+
+.projDashHead{
+    margin-bottom: 12px !important;
+    position: relative;
+    background-color: var(--bgColor) ;
+}
+
+.projDashRow2{
+    margin: 10px 0px;
+   width: 100%;
+}
+
+.projDashRow2Col{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.projDashHead1{
+    width: 19%;
+}
+
+.projDashHead2{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.projDashRow3{
+    margin: 10px 0px;
+}
+
+.projDashHead2 .prHeadCrdBox{
+    width: 24%;
+}
+
+.devHead{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.titless{
+    margin: auto !important;
+}
+
+.backArrow{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    cursor: pointer !important;
+}
+
+@media only screen and (max-width : 950px){
+    .projDash{
+        width: 98%;
+        margin: auto;
+    }
+    .projDashRow2Col{
+        flex-direction: column;
+    }
+
+    .projDashHead1{
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .projDashHead2{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width : 800px) {
+    .projDash{
+        width: 98%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width : 740px){
+    .projDash{
+        width: 100%;
+        margin: auto;
+        padding: 24px 24px;
+        
+    }
+
+    .projDashHead2{
+        flex-wrap: wrap ;
+    }
+
+    .projDashHead2 .prHeadCrdBox{
+        width: 49%;
+        margin-bottom: 15px;
+
+    }
+}
+
+
+@media only screen and (max-width : 600px){
+    .prHeadCrdBox{
+        width: 98% !important;
+    }
+
+    .projDash{
+        width: 74%;
+        margin-left: 0px !important;
+    }
+}
+
+
+@media only screen and (max-width : 450px){
+    .projDash{
+        width: 65%;
+    }
+}
+@media only screen and (max-width : 400px){
+    .projDash{
+        width: 58%;
+    }
+}
